@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/mgraphic2" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/subjectlabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Unknown User, select settings" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/settings"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_button_selector"
+                android:enabled="true"
+                android:text="Select Chapter" />
+
+            <requestFocus />
+
+            <Button
+                android:id="@+id/showQuestions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_button_selector"
+                android:enabled="true"
+                android:text="Take Test" />
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/default_button_selector"
+                android:enabled="true"
+                android:text="Log Out" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

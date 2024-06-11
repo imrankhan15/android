@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/mlearn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tsubject9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Subject"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/subject9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/socialscience9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Social Science" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/english9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/mathematics9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MathMatics" >
+            </RadioButton>
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/contentss9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="fill_parent"
+                android:layout_height="400dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Select Chapter"
+                        android:textColor="#000000" />
+
+                    <RadioGroup
+                        android:id="@+id/chap9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/chaps901"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Shamaj,ShongsKriti and Culture" >
+                        </RadioButton>
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/settingssave92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="true"
+                        android:text="Save Selection" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contente9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="fill_parent"
+                android:layout_height="400dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Select Chapter"
+                        android:textColor="#000000" />
+
+                    <RadioGroup
+                        android:id="@+id/chap29"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/chaps2901"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hello, Welcome" >
+                        </RadioButton>
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/settingssave292"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="true"
+                        android:text="Save Selection" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contentm9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="fill_parent"
+                android:layout_height="400dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Select Chapter"
+                        android:textColor="#000000" />
+
+                    <RadioGroup
+                        android:id="@+id/chap39"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/chaps3901"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="set" >
+                        </RadioButton>
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/settingssave392"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="true"
+                        android:text="Save Selection" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

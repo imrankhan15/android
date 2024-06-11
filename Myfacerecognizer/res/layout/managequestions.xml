@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/nquestion" />
+<LinearLayout 
+	android:id="@+id/questionlistview"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:gravity="bottom"
+    >
+
+    
+
+ 	<TextView	android:id="@+id/statuslabel"
+	android:text=" "
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	/>
+
+ 
+
+	
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="SMS To ProblemSetter"
+	    />
+
+	<Button
+	    android:id="@+id/button2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Back" />
+
+</LinearLayout>	
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/alt-rt.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/charsets.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/deploy.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/javaws.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/jce.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/jfr.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/jfxrt.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/jsse.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/management-agent.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/plugin.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/resources.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/rt.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/ext/access-bridge.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/ext/dnsns.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/ext/jaccess.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/ext/localedata.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/ext/sunec.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/ext/sunjce_provider.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/ext/sunmscapi.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/ext/sunpkcs11.jar"/>
+	<classpathentry kind="lib" path="G:/cse3-2/software development Lab/Android Studies/Android docs/adt-bundle-windows-x86/eclipse/jre/lib/ext/zipfs.jar"/>
+	<classpathentry kind="lib" path="libs/javacpp.jar"/>
+	<classpathentry kind="lib" path="libs/javacv.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
